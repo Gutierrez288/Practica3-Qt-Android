@@ -1900,7 +1900,6 @@ moc_mainwindow.cpp: ../../mainwindow.h \
 		/home/oscar-gutierrez/Qt/6.10.3/android_arm64_v8a/include/QtCharts/qvpiemodelmapper.h \
 		/home/oscar-gutierrez/Qt/6.10.3/android_arm64_v8a/include/QtCharts/qvxymodelmapper.h \
 		/home/oscar-gutierrez/Qt/6.10.3/android_arm64_v8a/include/QtCharts/qxylegendmarker.h \
-		/home/oscar-gutierrez/Qt/6.10.3/android_arm64_v8a/include/QtWidgets/QVBoxLayout \
 		/home/oscar-gutierrez/Qt/6.10.3/android_arm64_v8a/include/QtSensors/QAccelerometer \
 		/home/oscar-gutierrez/Qt/6.10.3/android_arm64_v8a/include/QtSensors/qaccelerometer.h \
 		/home/oscar-gutierrez/Qt/6.10.3/android_arm64_v8a/include/QtSensors/qsensor.h \
@@ -1908,6 +1907,10 @@ moc_mainwindow.cpp: ../../mainwindow.h \
 		/home/oscar-gutierrez/Qt/6.10.3/android_arm64_v8a/include/QtSensors/qtsensorsexports.h \
 		/home/oscar-gutierrez/Qt/6.10.3/android_arm64_v8a/include/QtCore/QByteArray \
 		/home/oscar-gutierrez/Qt/6.10.3/android_arm64_v8a/include/QtCore/QPair \
+		/home/oscar-gutierrez/Qt/6.10.3/android_arm64_v8a/include/QtWidgets/QTabWidget \
+		/home/oscar-gutierrez/Qt/6.10.3/android_arm64_v8a/include/QtWidgets/QVBoxLayout \
+		/home/oscar-gutierrez/Qt/6.10.3/android_arm64_v8a/include/QtWidgets/QLabel \
+		/home/oscar-gutierrez/Qt/6.10.3/android_arm64_v8a/include/QtWidgets/QPushButton \
 		moc_predefs.h \
 		/home/oscar-gutierrez/Qt/6.10.3/gcc_64/libexec/moc
 	/home/oscar-gutierrez/Qt/6.10.3/gcc_64/libexec/moc $(DEFINES) --include /home/oscar-gutierrez/Descargas/Practica2_qt/Practica2_qt/build/Qt_6_10_3_for_Android_arm64_v8a_Debug/moc_predefs.h -I/home/oscar-gutierrez/Qt/6.10.3/android_arm64_v8a/mkspecs/android-clang -I/home/oscar-gutierrez/Descargas/Practica2_qt/Practica2_qt -I/home/oscar-gutierrez/Qt/6.10.3/android_arm64_v8a/include -I/home/oscar-gutierrez/Qt/6.10.3/android_arm64_v8a/include/QtCharts -I/home/oscar-gutierrez/Qt/6.10.3/android_arm64_v8a/include/QtOpenGLWidgets -I/home/oscar-gutierrez/Qt/6.10.3/android_arm64_v8a/include/QtWidgets -I/home/oscar-gutierrez/Qt/6.10.3/android_arm64_v8a/include/QtOpenGL -I/home/oscar-gutierrez/Qt/6.10.3/android_arm64_v8a/include/QtGui -I/home/oscar-gutierrez/Qt/6.10.3/android_arm64_v8a/include/QtWebSockets -I/home/oscar-gutierrez/Qt/6.10.3/android_arm64_v8a/include/QtNetwork -I/home/oscar-gutierrez/Qt/6.10.3/android_arm64_v8a/include/QtSql -I/home/oscar-gutierrez/Qt/6.10.3/android_arm64_v8a/include/QtSensors -I/home/oscar-gutierrez/Qt/6.10.3/android_arm64_v8a/include/QtCore -I. -I/usr/include/c++/15 -I/usr/include/x86_64-linux-gnu/c++/15 -I/usr/include/c++/15/backward -I/home/oscar-gutierrez/Android/Sdk/ndk/27.2.12479018/toolchains/llvm/prebuilt/linux-x86_64/lib/clang/18/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include ../../mainwindow.h -o moc_mainwindow.cpp
@@ -2637,7 +2640,6 @@ main.o: ../../main.cpp ../../mainwindow.h \
 		/home/oscar-gutierrez/Qt/6.10.3/android_arm64_v8a/include/QtCharts/qvpiemodelmapper.h \
 		/home/oscar-gutierrez/Qt/6.10.3/android_arm64_v8a/include/QtCharts/qvxymodelmapper.h \
 		/home/oscar-gutierrez/Qt/6.10.3/android_arm64_v8a/include/QtCharts/qxylegendmarker.h \
-		/home/oscar-gutierrez/Qt/6.10.3/android_arm64_v8a/include/QtWidgets/QVBoxLayout \
 		/home/oscar-gutierrez/Qt/6.10.3/android_arm64_v8a/include/QtSensors/QAccelerometer \
 		/home/oscar-gutierrez/Qt/6.10.3/android_arm64_v8a/include/QtSensors/qaccelerometer.h \
 		/home/oscar-gutierrez/Qt/6.10.3/android_arm64_v8a/include/QtSensors/qsensor.h \
@@ -2645,6 +2647,10 @@ main.o: ../../main.cpp ../../mainwindow.h \
 		/home/oscar-gutierrez/Qt/6.10.3/android_arm64_v8a/include/QtSensors/qtsensorsexports.h \
 		/home/oscar-gutierrez/Qt/6.10.3/android_arm64_v8a/include/QtCore/QByteArray \
 		/home/oscar-gutierrez/Qt/6.10.3/android_arm64_v8a/include/QtCore/QPair \
+		/home/oscar-gutierrez/Qt/6.10.3/android_arm64_v8a/include/QtWidgets/QTabWidget \
+		/home/oscar-gutierrez/Qt/6.10.3/android_arm64_v8a/include/QtWidgets/QVBoxLayout \
+		/home/oscar-gutierrez/Qt/6.10.3/android_arm64_v8a/include/QtWidgets/QLabel \
+		/home/oscar-gutierrez/Qt/6.10.3/android_arm64_v8a/include/QtWidgets/QPushButton \
 		/home/oscar-gutierrez/Qt/6.10.3/android_arm64_v8a/include/QtWidgets/QApplication
 	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o main.o ../../main.cpp
 
@@ -3352,7 +3358,6 @@ mainwindow.o: ../../mainwindow.cpp ../../mainwindow.h \
 		/home/oscar-gutierrez/Qt/6.10.3/android_arm64_v8a/include/QtCharts/qvpiemodelmapper.h \
 		/home/oscar-gutierrez/Qt/6.10.3/android_arm64_v8a/include/QtCharts/qvxymodelmapper.h \
 		/home/oscar-gutierrez/Qt/6.10.3/android_arm64_v8a/include/QtCharts/qxylegendmarker.h \
-		/home/oscar-gutierrez/Qt/6.10.3/android_arm64_v8a/include/QtWidgets/QVBoxLayout \
 		/home/oscar-gutierrez/Qt/6.10.3/android_arm64_v8a/include/QtSensors/QAccelerometer \
 		/home/oscar-gutierrez/Qt/6.10.3/android_arm64_v8a/include/QtSensors/qaccelerometer.h \
 		/home/oscar-gutierrez/Qt/6.10.3/android_arm64_v8a/include/QtSensors/qsensor.h \
@@ -3360,14 +3365,16 @@ mainwindow.o: ../../mainwindow.cpp ../../mainwindow.h \
 		/home/oscar-gutierrez/Qt/6.10.3/android_arm64_v8a/include/QtSensors/qtsensorsexports.h \
 		/home/oscar-gutierrez/Qt/6.10.3/android_arm64_v8a/include/QtCore/QByteArray \
 		/home/oscar-gutierrez/Qt/6.10.3/android_arm64_v8a/include/QtCore/QPair \
+		/home/oscar-gutierrez/Qt/6.10.3/android_arm64_v8a/include/QtWidgets/QTabWidget \
+		/home/oscar-gutierrez/Qt/6.10.3/android_arm64_v8a/include/QtWidgets/QVBoxLayout \
+		/home/oscar-gutierrez/Qt/6.10.3/android_arm64_v8a/include/QtWidgets/QLabel \
+		/home/oscar-gutierrez/Qt/6.10.3/android_arm64_v8a/include/QtWidgets/QPushButton \
 		ui_mainwindow.h \
 		/home/oscar-gutierrez/Qt/6.10.3/android_arm64_v8a/include/QtWidgets/QApplication \
 		/home/oscar-gutierrez/Qt/6.10.3/android_arm64_v8a/include/QtWidgets/QCheckBox \
 		/home/oscar-gutierrez/Qt/6.10.3/android_arm64_v8a/include/QtWidgets/QGridLayout \
 		/home/oscar-gutierrez/Qt/6.10.3/android_arm64_v8a/include/QtWidgets/QHBoxLayout \
-		/home/oscar-gutierrez/Qt/6.10.3/android_arm64_v8a/include/QtWidgets/QLabel \
 		/home/oscar-gutierrez/Qt/6.10.3/android_arm64_v8a/include/QtWidgets/QMenuBar \
-		/home/oscar-gutierrez/Qt/6.10.3/android_arm64_v8a/include/QtWidgets/QPushButton \
 		/home/oscar-gutierrez/Qt/6.10.3/android_arm64_v8a/include/QtWidgets/QSlider \
 		/home/oscar-gutierrez/Qt/6.10.3/android_arm64_v8a/include/QtWidgets/QStatusBar \
 		/home/oscar-gutierrez/Qt/6.10.3/android_arm64_v8a/include/QtSql/QtSql \

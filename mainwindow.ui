@@ -101,16 +101,6 @@ QCheckBox::indicator:unchecked {
     <item>
      <layout class="QVBoxLayout" name="verticalLayout">
       <item>
-       <widget class="QLabel" name="label">
-        <property name="lineWidth">
-         <number>1</number>
-        </property>
-        <property name="text">
-         <string>Oscar Daniel Gutierrez Barba </string>
-        </property>
-       </widget>
-      </item>
-      <item>
        <widget class="QLabel" name="lblServo">
         <property name="text">
          <string>Control Manual Servo: 90°</string>

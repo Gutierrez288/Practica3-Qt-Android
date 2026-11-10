@@ -9,8 +9,21 @@
 #include <QTimer>
 #include <QKeyEvent>
 #include <QtCharts>
-#include <QVBoxLayout>
 #include <QAccelerometer>
+#include <QTabWidget>
+#include <QVBoxLayout>
+#include <QLabel>
+#include <QPushButton>
+#include <QCheckBox>
+#include <QDateTime>
+#include <QTableWidget>
+#include <QHeaderView>
+// --- NUEVO PASO 5 ---
+#include <QSpinBox>
+#include <QLineEdit>
+
+#include <QFile>
+#include <QTextStream>
 
 QT_BEGIN_NAMESPACE
 namespace Ui { class MainWindow; }
@@ -47,6 +60,24 @@ private slots:
 private:
     Ui::MainWindow *ui;
     QWebSocket socket;
+
+    QVBoxLayout *m_capaTemp;
+    QPushButton *m_botonLeerTemp;
+    QLabel *m_temperatura;
+
+    QCheckBox *m_chkAutoGuardar;
+    QTimer *m_timerGuardar;
+    void guardarTemperatura(double celsius);
+
+    QTableWidget *m_tabla;
+    QPushButton *m_botonCargar;
+    QLabel *m_total;
+
+    // --- NUEVO PASO 5: UPDATE ---
+    QSpinBox *m_id;
+    QLineEdit *m_nota;
+    QPushButton *m_botonGuardarNota;
+    QPushButton *m_botonExportarCSV;
 
     // Componentes de la gráfica
     QChart *chart;

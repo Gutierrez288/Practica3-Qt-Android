@@ -1,4 +1,4 @@
-QT += widgets websockets charts sql sensors
+QT += core gui widgets websockets charts sql sensors
 
 CONFIG += c++17
 

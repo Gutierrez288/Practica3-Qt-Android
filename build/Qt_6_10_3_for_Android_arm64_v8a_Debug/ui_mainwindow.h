@@ -37,7 +37,6 @@ public:
     QPushButton *btnDerecha;
     QPushButton *btnIzquierda;
     QVBoxLayout *verticalLayout;
-    QLabel *label;
     QLabel *lblServo;
     QSlider *sliderServo;
     QCheckBox *chkTracking;
@@ -129,12 +128,6 @@ public:
 
         verticalLayout = new QVBoxLayout();
         verticalLayout->setObjectName("verticalLayout");
-        label = new QLabel(centralwidget);
-        label->setObjectName("label");
-        label->setLineWidth(1);
-
-        verticalLayout->addWidget(label);
-
         lblServo = new QLabel(centralwidget);
         lblServo->setObjectName("lblServo");
 
@@ -182,7 +175,6 @@ public:
         btnAtras->setText(QCoreApplication::translate("MainWindow", "Atr\303\241s", nullptr));
         btnDerecha->setText(QCoreApplication::translate("MainWindow", "Derecha", nullptr));
         btnIzquierda->setText(QCoreApplication::translate("MainWindow", "Izquierda", nullptr));
-        label->setText(QCoreApplication::translate("MainWindow", "Oscar Daniel Gutierrez Barba ", nullptr));
         lblServo->setText(QCoreApplication::translate("MainWindow", "Control Manual Servo: 90\302\260", nullptr));
         chkTracking->setText(QCoreApplication::translate("MainWindow", "Modo Tracking", nullptr));
         chkFuga->setText(QCoreApplication::translate("MainWindow", "Modo Fuga", nullptr));
